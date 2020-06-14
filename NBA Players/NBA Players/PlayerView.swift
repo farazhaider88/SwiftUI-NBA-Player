@@ -15,13 +15,13 @@ struct PlayerView: View {
         VStack{
             Image(player.team.imageName).resizable().frame(height: 250)
             
-            Image(player.imageName)
+            Image(player.imageName).resizable().scaledToFit()
                 .clipShape(Circle())
                 .background(Circle()
                 .foregroundColor(.white))
                 .overlay(Circle().stroke(Color.white,lineWidth: 4)).shadow(radius: 15).offset(x: 0, y: -90).padding(.bottom, -90)
             
-            Text(player.name).font(.system(size: 50)).bold()
+            Text(player.name).font(.system(size: 50)).bold().padding(.horizontal).minimumScaleFactor(0.5)
             StatText(statName: "Age", statValue: String(player.age))
             StatText(statName: "Height", statValue: player.height)
             StatText(statName: "Weight", statValue: String(player.weight))
@@ -32,6 +32,9 @@ struct PlayerView: View {
 
 struct PlayerView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerView(player: players[0])
+        Group {
+            PlayerView(player: players[2]).previewDevice("iPhone XS Max")
+            PlayerView(player: players[2]).previewDevice("iPhone SE")
+        }
     }
 }

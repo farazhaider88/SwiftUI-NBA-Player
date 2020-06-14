@@ -17,7 +17,7 @@ struct PlayerRow: View {
             Image(player.imageName).resizable().scaledToFit().clipShape(Circle()).background(Circle().foregroundColor(player.team.color))
             Text(player.name).font(.largeTitle)
             Spacer()
-        }
+        }.frame(height:50)
     }
 }
 

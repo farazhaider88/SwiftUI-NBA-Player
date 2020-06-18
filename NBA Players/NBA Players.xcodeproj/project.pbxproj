@@ -25,6 +25,20 @@
 		D051B639249B5A0F00F22624 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0848CE6249612A900FCA69D /* PlayerRow.swift */; };
 		D051B63A249B5A1400F22624 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072591524952F56006C3E95 /* Player.swift */; };
 		D051B63B249B5A1800F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072590724952BF9006C3E95 /* Assets.xcassets */; };
+		D051B677249B6BD200F22624 /* NBA Players Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D051B676249B6BD200F22624 /* NBA Players Watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D051B67D249B6BD200F22624 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D051B67B249B6BD200F22624 /* Interface.storyboard */; };
+		D051B67F249B6BD500F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051B67E249B6BD400F22624 /* Assets.xcassets */; };
+		D051B686249B6BD500F22624 /* NBA Players Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D051B685249B6BD500F22624 /* NBA Players Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D051B68B249B6BD500F22624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051B68A249B6BD500F22624 /* ContentView.swift */; };
+		D051B68D249B6BD500F22624 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051B68C249B6BD500F22624 /* HostingController.swift */; };
+		D051B68F249B6BD500F22624 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051B68E249B6BD500F22624 /* ExtensionDelegate.swift */; };
+		D051B691249B6BD600F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051B690249B6BD600F22624 /* Assets.xcassets */; };
+		D051B694249B6BD600F22624 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051B693249B6BD600F22624 /* Preview Assets.xcassets */; };
+		D051B6A1249B6D2600F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072590724952BF9006C3E95 /* Assets.xcassets */; };
+		D051B6A2249B6D2700F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072590724952BF9006C3E95 /* Assets.xcassets */; };
+		D051B6A3249B6D2700F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072590724952BF9006C3E95 /* Assets.xcassets */; };
+		D051B6A4249B6D5500F22624 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0848CE6249612A900FCA69D /* PlayerRow.swift */; };
+		D051B6A5249B6D5B00F22624 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072591524952F56006C3E95 /* Player.swift */; };
 		D072590224952BF8006C3E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072590124952BF8006C3E95 /* AppDelegate.swift */; };
 		D072590424952BF8006C3E95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072590324952BF8006C3E95 /* SceneDelegate.swift */; };
 		D072590624952BF8006C3E95 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072590524952BF8006C3E95 /* PlayerView.swift */; };
@@ -36,6 +50,48 @@
 		D0848CE7249612A900FCA69D /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0848CE6249612A900FCA69D /* PlayerRow.swift */; };
 		D0848CE92496151D00FCA69D /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0848CE82496151D00FCA69D /* PlayerList.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D051B678249B6BD200F22624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07258F624952BF8006C3E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D051B675249B6BD200F22624;
+			remoteInfo = "NBA Players Watch WatchKit App";
+		};
+		D051B687249B6BD500F22624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07258F624952BF8006C3E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D051B684249B6BD500F22624;
+			remoteInfo = "NBA Players Watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D051B698249B6BD600F22624 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D051B677249B6BD200F22624 /* NBA Players Watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B69B249B6BD600F22624 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D051B686249B6BD500F22624 /* NBA Players Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D051B607249B577D00F22624 /* NBA Players Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +111,18 @@
 		D051B630249B59B600F22624 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D051B633249B59B600F22624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D051B635249B59B600F22624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D051B673249B6BD200F22624 /* NBA Players Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D051B676249B6BD200F22624 /* NBA Players Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D051B67C249B6BD200F22624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D051B67E249B6BD400F22624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D051B680249B6BD500F22624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D051B685249B6BD500F22624 /* NBA Players Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NBA Players Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D051B68A249B6BD500F22624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D051B68C249B6BD500F22624 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		D051B68E249B6BD500F22624 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D051B690249B6BD600F22624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D051B693249B6BD600F22624 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D051B695249B6BD600F22624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07258FE24952BF8006C3E95 /* NBA Players.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072590124952BF8006C3E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D072590324952BF8006C3E95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +146,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D051B621249B59B400F22624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B682249B6BD500F22624 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,12 +214,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D051B67A249B6BD200F22624 /* NBA Players Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D051B67B249B6BD200F22624 /* Interface.storyboard */,
+				D051B67E249B6BD400F22624 /* Assets.xcassets */,
+				D051B680249B6BD500F22624 /* Info.plist */,
+			);
+			path = "NBA Players Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D051B689249B6BD500F22624 /* NBA Players Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D051B68A249B6BD500F22624 /* ContentView.swift */,
+				D051B68C249B6BD500F22624 /* HostingController.swift */,
+				D051B68E249B6BD500F22624 /* ExtensionDelegate.swift */,
+				D051B690249B6BD600F22624 /* Assets.xcassets */,
+				D051B695249B6BD600F22624 /* Info.plist */,
+				D051B692249B6BD600F22624 /* Preview Content */,
+			);
+			path = "NBA Players Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D051B692249B6BD600F22624 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D051B693249B6BD600F22624 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D07258F524952BF8006C3E95 = {
 			isa = PBXGroup;
 			children = (
 				D072590024952BF8006C3E95 /* NBA Players */,
 				D051B608249B577D00F22624 /* NBA Players Mac */,
 				D051B625249B59B400F22624 /* NBA Players TVOS */,
+				D051B67A249B6BD200F22624 /* NBA Players Watch WatchKit App */,
+				D051B689249B6BD500F22624 /* NBA Players Watch WatchKit Extension */,
 				D07258FF24952BF8006C3E95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +263,9 @@
 				D07258FE24952BF8006C3E95 /* NBA Players.app */,
 				D051B607249B577D00F22624 /* NBA Players Mac.app */,
 				D051B624249B59B400F22624 /* NBA Players TVOS.app */,
+				D051B673249B6BD200F22624 /* NBA Players Watch.app */,
+				D051B676249B6BD200F22624 /* NBA Players Watch WatchKit App.app */,
+				D051B685249B6BD500F22624 /* NBA Players Watch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,6 +333,57 @@
 			productReference = D051B624249B59B400F22624 /* NBA Players TVOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D051B672249B6BD200F22624 /* NBA Players Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D051B6A0249B6BD600F22624 /* Build configuration list for PBXNativeTarget "NBA Players Watch" */;
+			buildPhases = (
+				D051B671249B6BD200F22624 /* Resources */,
+				D051B698249B6BD600F22624 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D051B679249B6BD200F22624 /* PBXTargetDependency */,
+			);
+			name = "NBA Players Watch";
+			productName = "NBA Players Watch";
+			productReference = D051B673249B6BD200F22624 /* NBA Players Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D051B675249B6BD200F22624 /* NBA Players Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D051B69F249B6BD600F22624 /* Build configuration list for PBXNativeTarget "NBA Players Watch WatchKit App" */;
+			buildPhases = (
+				D051B674249B6BD200F22624 /* Resources */,
+				D051B69B249B6BD600F22624 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D051B688249B6BD500F22624 /* PBXTargetDependency */,
+			);
+			name = "NBA Players Watch WatchKit App";
+			productName = "NBA Players Watch WatchKit App";
+			productReference = D051B676249B6BD200F22624 /* NBA Players Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D051B684249B6BD500F22624 /* NBA Players Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D051B69E249B6BD600F22624 /* Build configuration list for PBXNativeTarget "NBA Players Watch WatchKit Extension" */;
+			buildPhases = (
+				D051B681249B6BD500F22624 /* Sources */,
+				D051B682249B6BD500F22624 /* Frameworks */,
+				D051B683249B6BD500F22624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NBA Players Watch WatchKit Extension";
+			productName = "NBA Players Watch WatchKit Extension";
+			productReference = D051B685249B6BD500F22624 /* NBA Players Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		D07258FD24952BF8006C3E95 /* NBA Players */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D072591224952BF9006C3E95 /* Build configuration list for PBXNativeTarget "NBA Players" */;
@@ -255,6 +417,15 @@
 					D051B623249B59B400F22624 = {
 						CreatedOnToolsVersion = 11.4;
 					};
+					D051B672249B6BD200F22624 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					D051B675249B6BD200F22624 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					D051B684249B6BD500F22624 = {
+						CreatedOnToolsVersion = 11.4;
+					};
 					D07258FD24952BF8006C3E95 = {
 						CreatedOnToolsVersion = 11.4;
 					};
@@ -276,6 +447,9 @@
 				D07258FD24952BF8006C3E95 /* NBA Players */,
 				D051B606249B577D00F22624 /* NBA Players Mac */,
 				D051B623249B59B400F22624 /* NBA Players TVOS */,
+				D051B672249B6BD200F22624 /* NBA Players Watch */,
+				D051B675249B6BD200F22624 /* NBA Players Watch WatchKit App */,
+				D051B684249B6BD500F22624 /* NBA Players Watch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +474,34 @@
 				D051B631249B59B600F22624 /* Preview Assets.xcassets in Resources */,
 				D051B63B249B5A1800F22624 /* Assets.xcassets in Resources */,
 				D051B62E249B59B600F22624 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B671249B6BD200F22624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B6A1249B6D2600F22624 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B674249B6BD200F22624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B67F249B6BD500F22624 /* Assets.xcassets in Resources */,
+				D051B6A2249B6D2700F22624 /* Assets.xcassets in Resources */,
+				D051B67D249B6BD200F22624 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B683249B6BD500F22624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B694249B6BD600F22624 /* Preview Assets.xcassets in Resources */,
+				D051B6A3249B6D2700F22624 /* Assets.xcassets in Resources */,
+				D051B691249B6BD600F22624 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +542,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D051B681249B6BD500F22624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B68D249B6BD500F22624 /* HostingController.swift in Sources */,
+				D051B68B249B6BD500F22624 /* ContentView.swift in Sources */,
+				D051B68F249B6BD500F22624 /* ExtensionDelegate.swift in Sources */,
+				D051B6A5249B6D5B00F22624 /* Player.swift in Sources */,
+				D051B6A4249B6D5500F22624 /* PlayerRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D07258FA24952BF8006C3E95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +570,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D051B679249B6BD200F22624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D051B675249B6BD200F22624 /* NBA Players Watch WatchKit App */;
+			targetProxy = D051B678249B6BD200F22624 /* PBXContainerItemProxy */;
+		};
+		D051B688249B6BD500F22624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D051B684249B6BD500F22624 /* NBA Players Watch WatchKit Extension */;
+			targetProxy = D051B687249B6BD500F22624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D051B615249B577E00F22624 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -371,6 +598,14 @@
 				D051B633249B59B600F22624 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D051B67B249B6BD200F22624 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D051B67C249B6BD200F22624 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 		D072590C24952BF9006C3E95 /* LaunchScreen.storyboard */ = {
@@ -473,6 +708,118 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
+		D051B696249B6BD600F22624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D051B697249B6BD600F22624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D051B699249B6BD600F22624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				IBSC_MODULE = NBA_Players_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "NBA Players Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		D051B69A249B6BD600F22624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				IBSC_MODULE = NBA_Players_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "NBA Players Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		D051B69C249B6BD600F22624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Players Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBA Players Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		D051B69D249B6BD600F22624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Players Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBA Players Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
@@ -647,6 +994,33 @@
 			buildConfigurations = (
 				D051B637249B59B600F22624 /* Debug */,
 				D051B638249B59B600F22624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D051B69E249B6BD600F22624 /* Build configuration list for PBXNativeTarget "NBA Players Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D051B69C249B6BD600F22624 /* Debug */,
+				D051B69D249B6BD600F22624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D051B69F249B6BD600F22624 /* Build configuration list for PBXNativeTarget "NBA Players Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D051B699249B6BD600F22624 /* Debug */,
+				D051B69A249B6BD600F22624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D051B6A0249B6BD600F22624 /* Build configuration list for PBXNativeTarget "NBA Players Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D051B696249B6BD600F22624 /* Debug */,
+				D051B697249B6BD600F22624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

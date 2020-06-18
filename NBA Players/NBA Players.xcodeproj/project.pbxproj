@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D051B60A249B577D00F22624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051B609249B577D00F22624 /* AppDelegate.swift */; };
+		D051B60C249B577D00F22624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051B60B249B577D00F22624 /* ContentView.swift */; };
+		D051B60F249B577D00F22624 /* NBA_Players_Mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D051B60D249B577D00F22624 /* NBA_Players_Mac.xcdatamodeld */; };
+		D051B611249B577E00F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051B610249B577E00F22624 /* Assets.xcassets */; };
+		D051B614249B577E00F22624 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051B613249B577E00F22624 /* Preview Assets.xcassets */; };
+		D051B617249B577E00F22624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D051B615249B577E00F22624 /* Main.storyboard */; };
+		D051B61D249B584600F22624 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072591524952F56006C3E95 /* Player.swift */; };
+		D051B61E249B585000F22624 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0848CE6249612A900FCA69D /* PlayerRow.swift */; };
+		D051B61F249B587000F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072590724952BF9006C3E95 /* Assets.xcassets */; };
+		D051B627249B59B400F22624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051B626249B59B400F22624 /* AppDelegate.swift */; };
+		D051B62A249B59B400F22624 /* NBA_Players_TVOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D051B628249B59B400F22624 /* NBA_Players_TVOS.xcdatamodeld */; };
+		D051B62C249B59B400F22624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051B62B249B59B400F22624 /* ContentView.swift */; };
+		D051B62E249B59B600F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051B62D249B59B600F22624 /* Assets.xcassets */; };
+		D051B631249B59B600F22624 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051B630249B59B600F22624 /* Preview Assets.xcassets */; };
+		D051B634249B59B600F22624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D051B632249B59B600F22624 /* LaunchScreen.storyboard */; };
+		D051B639249B5A0F00F22624 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0848CE6249612A900FCA69D /* PlayerRow.swift */; };
+		D051B63A249B5A1400F22624 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072591524952F56006C3E95 /* Player.swift */; };
+		D051B63B249B5A1800F22624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072590724952BF9006C3E95 /* Assets.xcassets */; };
 		D072590224952BF8006C3E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072590124952BF8006C3E95 /* AppDelegate.swift */; };
 		D072590424952BF8006C3E95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072590324952BF8006C3E95 /* SceneDelegate.swift */; };
 		D072590624952BF8006C3E95 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072590524952BF8006C3E95 /* PlayerView.swift */; };
@@ -20,6 +38,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D051B607249B577D00F22624 /* NBA Players Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D051B609249B577D00F22624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D051B60B249B577D00F22624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D051B60E249B577D00F22624 /* NBA_Players_Mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NBA_Players_Mac.xcdatamodel; sourceTree = "<group>"; };
+		D051B610249B577E00F22624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D051B613249B577E00F22624 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D051B616249B577E00F22624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D051B618249B577E00F22624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D051B619249B577E00F22624 /* NBA_Players_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NBA_Players_Mac.entitlements; sourceTree = "<group>"; };
+		D051B624249B59B400F22624 /* NBA Players TVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players TVOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D051B626249B59B400F22624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D051B629249B59B400F22624 /* NBA_Players_TVOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NBA_Players_TVOS.xcdatamodel; sourceTree = "<group>"; };
+		D051B62B249B59B400F22624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D051B62D249B59B600F22624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D051B630249B59B600F22624 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D051B633249B59B600F22624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D051B635249B59B600F22624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07258FE24952BF8006C3E95 /* NBA Players.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072590124952BF8006C3E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D072590324952BF8006C3E95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +70,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D051B604249B577D00F22624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B621249B59B400F22624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D07258FB24952BF8006C3E95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +94,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D051B608249B577D00F22624 /* NBA Players Mac */ = {
+			isa = PBXGroup;
+			children = (
+				D051B609249B577D00F22624 /* AppDelegate.swift */,
+				D051B60B249B577D00F22624 /* ContentView.swift */,
+				D051B610249B577E00F22624 /* Assets.xcassets */,
+				D051B615249B577E00F22624 /* Main.storyboard */,
+				D051B618249B577E00F22624 /* Info.plist */,
+				D051B619249B577E00F22624 /* NBA_Players_Mac.entitlements */,
+				D051B60D249B577D00F22624 /* NBA_Players_Mac.xcdatamodeld */,
+				D051B612249B577E00F22624 /* Preview Content */,
+			);
+			path = "NBA Players Mac";
+			sourceTree = "<group>";
+		};
+		D051B612249B577E00F22624 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D051B613249B577E00F22624 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D051B625249B59B400F22624 /* NBA Players TVOS */ = {
+			isa = PBXGroup;
+			children = (
+				D051B626249B59B400F22624 /* AppDelegate.swift */,
+				D051B62B249B59B400F22624 /* ContentView.swift */,
+				D051B62D249B59B600F22624 /* Assets.xcassets */,
+				D051B632249B59B600F22624 /* LaunchScreen.storyboard */,
+				D051B635249B59B600F22624 /* Info.plist */,
+				D051B628249B59B400F22624 /* NBA_Players_TVOS.xcdatamodeld */,
+				D051B62F249B59B600F22624 /* Preview Content */,
+			);
+			path = "NBA Players TVOS";
+			sourceTree = "<group>";
+		};
+		D051B62F249B59B600F22624 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D051B630249B59B600F22624 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D07258F524952BF8006C3E95 = {
 			isa = PBXGroup;
 			children = (
 				D072590024952BF8006C3E95 /* NBA Players */,
+				D051B608249B577D00F22624 /* NBA Players Mac */,
+				D051B625249B59B400F22624 /* NBA Players TVOS */,
 				D07258FF24952BF8006C3E95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				D07258FE24952BF8006C3E95 /* NBA Players.app */,
+				D051B607249B577D00F22624 /* NBA Players Mac.app */,
+				D051B624249B59B400F22624 /* NBA Players TVOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +188,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D051B606249B577D00F22624 /* NBA Players Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D051B61C249B577E00F22624 /* Build configuration list for PBXNativeTarget "NBA Players Mac" */;
+			buildPhases = (
+				D051B603249B577D00F22624 /* Sources */,
+				D051B604249B577D00F22624 /* Frameworks */,
+				D051B605249B577D00F22624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NBA Players Mac";
+			productName = "NBA Players Mac";
+			productReference = D051B607249B577D00F22624 /* NBA Players Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D051B623249B59B400F22624 /* NBA Players TVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D051B636249B59B600F22624 /* Build configuration list for PBXNativeTarget "NBA Players TVOS" */;
+			buildPhases = (
+				D051B620249B59B400F22624 /* Sources */,
+				D051B621249B59B400F22624 /* Frameworks */,
+				D051B622249B59B400F22624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NBA Players TVOS";
+			productName = "NBA Players TVOS";
+			productReference = D051B624249B59B400F22624 /* NBA Players TVOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D07258FD24952BF8006C3E95 /* NBA Players */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D072591224952BF9006C3E95 /* Build configuration list for PBXNativeTarget "NBA Players" */;
@@ -117,6 +249,12 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Etisalat;
 				TargetAttributes = {
+					D051B606249B577D00F22624 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					D051B623249B59B400F22624 = {
+						CreatedOnToolsVersion = 11.4;
+					};
 					D07258FD24952BF8006C3E95 = {
 						CreatedOnToolsVersion = 11.4;
 					};
@@ -136,11 +274,35 @@
 			projectRoot = "";
 			targets = (
 				D07258FD24952BF8006C3E95 /* NBA Players */,
+				D051B606249B577D00F22624 /* NBA Players Mac */,
+				D051B623249B59B400F22624 /* NBA Players TVOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D051B605249B577D00F22624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B617249B577E00F22624 /* Main.storyboard in Resources */,
+				D051B614249B577E00F22624 /* Preview Assets.xcassets in Resources */,
+				D051B61F249B587000F22624 /* Assets.xcassets in Resources */,
+				D051B611249B577E00F22624 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B622249B59B400F22624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B634249B59B600F22624 /* LaunchScreen.storyboard in Resources */,
+				D051B631249B59B600F22624 /* Preview Assets.xcassets in Resources */,
+				D051B63B249B5A1800F22624 /* Assets.xcassets in Resources */,
+				D051B62E249B59B600F22624 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D07258FC24952BF8006C3E95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +316,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D051B603249B577D00F22624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B61D249B584600F22624 /* Player.swift in Sources */,
+				D051B60C249B577D00F22624 /* ContentView.swift in Sources */,
+				D051B60F249B577D00F22624 /* NBA_Players_Mac.xcdatamodeld in Sources */,
+				D051B61E249B585000F22624 /* PlayerRow.swift in Sources */,
+				D051B60A249B577D00F22624 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D051B620249B59B400F22624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B62A249B59B400F22624 /* NBA_Players_TVOS.xcdatamodeld in Sources */,
+				D051B627249B59B400F22624 /* AppDelegate.swift in Sources */,
+				D051B62C249B59B400F22624 /* ContentView.swift in Sources */,
+				D051B63A249B5A1400F22624 /* Player.swift in Sources */,
+				D051B639249B5A0F00F22624 /* PlayerRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D07258FA24952BF8006C3E95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +357,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D051B615249B577E00F22624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D051B616249B577E00F22624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D051B632249B59B600F22624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D051B633249B59B600F22624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D072590C24952BF9006C3E95 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -182,6 +384,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D051B61A249B577E00F22624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NBA Players Mac/NBA_Players_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Players Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBA Players Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D051B61B249B577E00F22624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NBA Players Mac/NBA_Players_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Players Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBA Players Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D051B637249B59B600F22624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Players TVOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBA Players TVOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		D051B638249B59B600F22624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBA Players TVOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBA Players TVOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.NBA-Players-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
 		D072591024952BF9006C3E95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -339,6 +633,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D051B61C249B577E00F22624 /* Build configuration list for PBXNativeTarget "NBA Players Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D051B61A249B577E00F22624 /* Debug */,
+				D051B61B249B577E00F22624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D051B636249B59B600F22624 /* Build configuration list for PBXNativeTarget "NBA Players TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D051B637249B59B600F22624 /* Debug */,
+				D051B638249B59B600F22624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D07258F924952BF8006C3E95 /* Build configuration list for PBXProject "NBA Players" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -358,6 +670,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D051B60D249B577D00F22624 /* NBA_Players_Mac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D051B60E249B577D00F22624 /* NBA_Players_Mac.xcdatamodel */,
+			);
+			currentVersion = D051B60E249B577D00F22624 /* NBA_Players_Mac.xcdatamodel */;
+			path = NBA_Players_Mac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		D051B628249B59B400F22624 /* NBA_Players_TVOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D051B629249B59B400F22624 /* NBA_Players_TVOS.xcdatamodel */,
+			);
+			currentVersion = D051B629249B59B400F22624 /* NBA_Players_TVOS.xcdatamodel */;
+			path = NBA_Players_TVOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D07258F624952BF8006C3E95 /* Project object */;
 }
